@@ -11,7 +11,7 @@ const EmergencyMap = () => {
     if (!mapContainer.current) return;
 
     // Initialize map
-    mapboxgl.accessToken = "pk.eyJ1Ijoic3ViaGFtcHJlZXQiLCJhIjoiY2toY2IwejF1MDdodzJxbWRuZHAweDV6aiJ9.Ys8MP5kVTk5P9V2TDvnuDg";
+    mapboxgl.accessToken = "your api key";
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/streets-v12',
