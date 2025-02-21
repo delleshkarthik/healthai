@@ -358,7 +358,7 @@ const PatientRecords = () => {
             )}
           </DialogContent>
         </Dialog>
-{/*       </main> */}
+      </main>
     </div>
   );
 };
